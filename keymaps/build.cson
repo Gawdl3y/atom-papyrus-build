@@ -1,0 +1,8 @@
+'.platform-darwin':
+    'cmd-alt-b': 'papyrus-build:trigger'
+
+'.platform-linux, .platform-win32':
+    'ctrl-alt-b': 'papyrus-build:trigger'
+
+'.papyrus-build':
+    'escape': 'papyrus-build:stop'

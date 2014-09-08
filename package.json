@@ -1,0 +1,26 @@
+{
+	"name": "papyrus-build",
+	"version": "0.0.0",
+	"description": "Papyrus compiler support in Atom",
+	"license": "MIT",
+	"main": "./lib/papyrus-build",
+	"activationEvents": [
+		"papyrus-build:trigger",
+		"papyrus-build:stop"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Gawdl3y/atom-papyrus-build.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Gawdl3y/atom-papyrus-build/issues"
+	},
+	"engines": {
+		"atom": "*",
+		"node": "*"
+	},
+	"dependencies": {
+		"ansi-to-html": "^0.2.0",
+		"underscore": "^1.6.0"
+	}
+}

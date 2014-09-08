@@ -1,0 +1,15 @@
+'context-menu':
+	'.overlayer':
+		'Build Papyrus': 'papyrus-build:trigger'
+
+'menu': [
+	{
+		'label': 'Packages'
+		'submenu': [
+			'label': 'Papyrus Build'
+			'submenu': [
+				{ 'label': 'Build current file', 'command': 'papyrus-build:trigger' }
+			]
+		]
+	}
+]
