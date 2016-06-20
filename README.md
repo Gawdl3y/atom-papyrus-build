@@ -1,3 +1,6 @@
+# Obsolete
+**This package/repository is obsolete.** Please use [build-papyrus](https://atom.io/packages/build-papyrus).
+
 # Papyrus Build package for Atom
 
 Based on the [build](https://github.com/noseglid/atom-build) package by Alexander Olsson.
